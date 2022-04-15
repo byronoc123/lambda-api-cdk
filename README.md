@@ -4,6 +4,8 @@
 You should explore the contents of this project. It demonstrates a CDK app with an instance of a stack (`lambda_api_cdk_stack`)
 which contains an Amazon Lambda Function that has an Api endpoint provided by an Amazon Api Gateway.
 
+***Install CDK prerequisites before continuing ' https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html#getting_started_prerequisites ' ***
+
 This project is set up like a standard Python project.  The initialization process also creates
 a virtualenv within this project, stored under the .venv directory.  To create the virtualenv
 it assumes that there is a `python3` executable in your path with access to the `venv` package.
@@ -49,8 +51,11 @@ $ python3 -m pytest
 ```
 
 To add deploy app into aws account
+
+```
 $ cdk bootstrap
 $ cdk deploy
+```
 
 ## Useful commands
 
